@@ -5,21 +5,21 @@ import Head from "next/head";
 import ThirdwebGuideFooter from "../components/GitHubLink";
 
 // This is the chainId your dApp will work on.
-const activeChainId = ChainId.Mumbai;
+const activeChainId = ChainId.Mainnet;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider desiredChainId={activeChainId}>
       <Head>
-        <title>thirdweb NFT Drop Minting Customizable Page</title>
+        <title>Now We Are Six</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Learn How To Use Thirdweb's NFT Drop contract and create a customizable NFT Drop minting page"
+          content="Now We Are Six is a collection of 35 children's poems and this book entered the US Public Domain in 2023. One of the first 'book and NFT Companion' collections on the blockchain, Now We Were Six honors the birthday of its author A.A. Milne. January 18th is also referred to as Winnie-the-Pooh Day!"
         />
         <meta
           name="keywords"
-          content="Thirdweb, thirdweb NFT drop, how to make thirdweb nft drop, how to make nft collection thirdweb"
+          content="Now We Are Six is a collection of 35 children's poems and this book entered the US Public Domain in 2023. One of the first 'book and NFT Companion' collections on the blockchain, Now We Were Six honors the birthday of its author A.A. Milne. January 18th is also referred to as Winnie-the-Pooh Day!"
         />
       </Head>
       <Component {...pageProps} />
